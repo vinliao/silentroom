@@ -3,9 +3,7 @@
 
 	const initialLandingMessage = `Your email inbox is a place where a zillion distracting emails bombard you. This app is a peaceful, silent place to write emails before sending it.
 
-This app doesn't send email. When you're done writing your email here, you copy-paste it on your email app (Gmail, Outlook, etc), then send it. The emails you write here are stored in your browser.
-
-Encrypted backup coming soon - access your draft emails from any device for $10/mo.`
+This app doesn't send email. When you're done writing your email here, you copy-paste it on your email app (Gmail, Outlook, etc), then send it. The emails you write here are stored in your browser.`
 
 	let emails = [];
 	if(!localStorage.getItem('emails')) {
